@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1363</width>
-    <height>811</height>
+    <height>628</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>1361</width>
-      <height>811</height>
+      <height>631</height>
      </rect>
     </property>
     <property name="font">
@@ -29,7 +29,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="Meny">
      <property name="geometry">
@@ -37,7 +37,7 @@
        <x>0</x>
        <y>0</y>
        <width>1361</width>
-       <height>652</height>
+       <height>472</height>
       </rect>
      </property>
      <attribute name="label">
@@ -63,7 +63,7 @@
        <x>0</x>
        <y>0</y>
        <width>1361</width>
-       <height>652</height>
+       <height>472</height>
       </rect>
      </property>
      <attribute name="label">
@@ -75,7 +75,7 @@
         <x>0</x>
         <y>0</y>
         <width>1451</width>
-        <height>671</height>
+        <height>471</height>
        </rect>
       </property>
       <property name="minimumSize">
@@ -90,7 +90,7 @@
        </font>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>4</number>
       </property>
       <widget class="QWidget" name="tab_8">
        <attribute name="title">
@@ -1610,7 +1610,7 @@ background-color: rgb(113, 113, 113);</string>
        <x>0</x>
        <y>0</y>
        <width>1361</width>
-       <height>652</height>
+       <height>472</height>
       </rect>
      </property>
      <attribute name="label">
@@ -1622,7 +1622,7 @@ background-color: rgb(113, 113, 113);</string>
         <x>0</x>
         <y>-10</y>
         <width>1511</width>
-        <height>661</height>
+        <height>481</height>
        </rect>
       </property>
       <property name="minimumSize">
@@ -1637,7 +1637,7 @@ background-color: rgb(113, 113, 113);</string>
        </font>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -2050,8 +2050,8 @@ background-color: rgb(113, 113, 113);</string>
        <widget class="QWidget" name="widget_7" native="true">
         <property name="geometry">
          <rect>
-          <x>0</x>
-          <y>320</y>
+          <x>910</x>
+          <y>0</y>
           <width>440</width>
           <height>300</height>
          </rect>
@@ -2189,23 +2189,6 @@ background-color: rgb(113, 113, 113);</string>
                  </property>
                 </widget>
                </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_15">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>a</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
               </layout>
              </item>
             </layout>
@@ -2241,641 +2224,6 @@ background-color: rgb(113, 113, 113);</string>
               <string notr="true">background-color: rgb(200, 200, 200);</string>
              </property>
              <widget class="QLabel" name="label_20">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="widget_9" native="true">
-        <property name="geometry">
-         <rect>
-          <x>460</x>
-          <y>320</y>
-          <width>440</width>
-          <height>300</height>
-         </rect>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>440</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>440</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_10" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>420</width>
-           <height>280</height>
-          </rect>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>420</width>
-           <height>280</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>420</width>
-           <height>280</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_22">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>10</y>
-            <width>381</width>
-            <height>251</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_25">
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_13">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_25">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/2018-12-06_22-04-58.jpg</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_12">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_26">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>F</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_27">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>m</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_24">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_25">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>r</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_8">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_58" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_28">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="widget_11" native="true">
-        <property name="geometry">
-         <rect>
-          <x>920</x>
-          <y>320</y>
-          <width>440</width>
-          <height>300</height>
-         </rect>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>440</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_12" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>420</width>
-           <height>280</height>
-          </rect>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>420</width>
-           <height>280</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_23">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>10</y>
-            <width>381</width>
-            <height>251</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_26">
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_14">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_27">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/2018-12-06_22-04-31.jpg</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_10">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_17">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>v</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_18">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>r</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_19">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>a</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_10">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_56" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_22">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="widget_13" native="true">
-        <property name="geometry">
-         <rect>
-          <x>920</x>
-          <y>0</y>
-          <width>440</width>
-          <height>300</height>
-         </rect>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>440</width>
-          <height>300</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_14" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>420</width>
-           <height>280</height>
-          </rect>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>420</width>
-           <height>280</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_24">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>20</y>
-            <width>381</width>
-            <height>245</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_27">
-           <property name="topMargin">
-            <number>10</number>
-           </property>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_15">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_29">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/2018-12-06_22-04-17.jpg</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_14">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_23">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>r</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_22">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_20">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>a</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_7">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_59" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_30">
               <property name="geometry">
                <rect>
                 <x>10</x>
@@ -3097,6 +2445,584 @@ background-color: rgb(113, 113, 113);</string>
               <string notr="true">background-color: rgb(200, 200, 200);</string>
              </property>
              <widget class="QLabel" name="label_19">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>360</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>360</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>360</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Энергия</string>
+       </attribute>
+       <widget class="QWidget" name="widget_25" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>421</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+background-color: rgb(113, 113, 113);</string>
+        </property>
+        <widget class="QWidget" name="widget_26" native="true">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>401</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_30">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>381</width>
+            <height>271</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_37">
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_21">
+             <property name="spacing">
+              <number>50</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_41">
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>D:/Downloads/Закон сохранения механической энергpdf (1).png</pixmap>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_38">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="spinBox_41">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>E</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_40">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>m</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_61">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>h</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Ответ</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_68" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>400</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(200, 200, 200);</string>
+             </property>
+             <widget class="QLabel" name="label_35">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>360</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>360</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>360</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_27" native="true">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>0</y>
+          <width>421</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+background-color: rgb(113, 113, 113);</string>
+        </property>
+        <widget class="QWidget" name="widget_28" native="true">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>401</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_31">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>381</width>
+            <height>251</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_39">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_22">
+             <property name="spacing">
+              <number>50</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_43">
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>D:/Downloads/Закон сохранения механической энергии. Упр 22.pdf.png</pixmap>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_16">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="spinBox_45">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>V</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_44">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>t</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_43">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>V0</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Ответ</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_69" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>400</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(200, 200, 200);</string>
+             </property>
+             <widget class="QLabel" name="label_46">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>360</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>360</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>360</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_29" native="true">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>421</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+background-color: rgb(113, 113, 113);</string>
+        </property>
+        <widget class="QWidget" name="widget_30" native="true">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>401</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_32">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>381</width>
+            <height>251</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_40">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_23">
+             <property name="spacing">
+              <number>50</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_45">
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>D:/Downloads/Закон сохранения механической энергии. Упр 22.pdf (1).png</pixmap>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_41">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <item>
+                <widget class="QSpinBox" name="spinBox_47">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>V0</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_48">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>t</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBox_49">
+                 <property name="font">
+                  <font>
+                   <family>Times New Roman</family>
+                   <pointsize>10</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                 <property name="specialValueText">
+                  <string>V</string>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Ответ</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_70" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>400</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(200, 200, 200);</string>
+             </property>
+             <widget class="QLabel" name="label_47">
               <property name="geometry">
                <rect>
                 <x>10</x>
@@ -3514,618 +3440,6 @@ background-color: rgb(113, 113, 113);</string>
         </widget>
        </widget>
       </widget>
-      <widget class="QWidget" name="tab_4">
-       <attribute name="title">
-        <string>Энергия</string>
-       </attribute>
-       <widget class="QWidget" name="widget_25" native="true">
-        <property name="geometry">
-         <rect>
-          <x>0</x>
-          <y>0</y>
-          <width>421</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_26" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>401</width>
-           <height>271</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_30">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>0</y>
-            <width>381</width>
-            <height>271</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_37">
-           <property name="topMargin">
-            <number>10</number>
-           </property>
-           <property name="bottomMargin">
-            <number>10</number>
-           </property>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_21">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_41">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/Закон сохранения механической энергpdf (1).png</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_38">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_41">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>E</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_40">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>m</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_36">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>g</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_68" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_35">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="widget_27" native="true">
-        <property name="geometry">
-         <rect>
-          <x>0</x>
-          <y>310</y>
-          <width>421</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_28" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>401</width>
-           <height>271</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_31">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>10</y>
-            <width>381</width>
-            <height>251</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_39">
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_22">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_43">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/Закон сохранения механической энергии. Упр 22.pdf.png</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_16">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_45">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_44">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>t</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_43">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V0</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_46">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>a</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_3">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_69" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_46">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-       <widget class="QWidget" name="widget_29" native="true">
-        <property name="geometry">
-         <rect>
-          <x>440</x>
-          <y>0</y>
-          <width>421</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-background-color: rgb(113, 113, 113);</string>
-        </property>
-        <widget class="QWidget" name="widget_30" native="true">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>401</width>
-           <height>271</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
-         </property>
-         <widget class="QWidget" name="verticalLayoutWidget_32">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>10</y>
-            <width>381</width>
-            <height>251</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_40">
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_23">
-             <property name="spacing">
-              <number>50</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_45">
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="pixmap">
-                <pixmap>D:/Downloads/Закон сохранения механической энергии. Упр 22.pdf (1).png</pixmap>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_41">
-               <property name="spacing">
-                <number>4</number>
-               </property>
-               <item>
-                <widget class="QSpinBox" name="spinBox_47">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V0</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_48">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>t</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_49">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>10</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>V</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QSpinBox" name="spinBox_50">
-                 <property name="font">
-                  <font>
-                   <family>Times New Roman</family>
-                   <pointsize>12</pointsize>
-                   <italic>true</italic>
-                  </font>
-                 </property>
-                 <property name="specialValueText">
-                  <string>a</string>
-                 </property>
-                 <property name="maximum">
-                  <number>1000000000</number>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_2">
-             <property name="minimumSize">
-              <size>
-               <width>100</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>100</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Ответ</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QWidget" name="widget_70" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>400</width>
-               <height>100</height>
-              </size>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(200, 200, 200);</string>
-             </property>
-             <widget class="QLabel" name="label_47">
-              <property name="geometry">
-               <rect>
-                <x>10</x>
-                <y>10</y>
-                <width>360</width>
-                <height>81</height>
-               </rect>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>360</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>360</width>
-                <height>16777215</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">background-color: rgb(255, 255, 255);</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </widget>
-       </widget>
-      </widget>
       <widget class="QWidget" name="tab_6">
        <attribute name="title">
         <string>Скорость</string>
@@ -4329,9 +3643,15 @@ background-color: rgb(113, 113, 113);</string>
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>491</width>
-          <height>331</height>
+          <width>341</width>
+          <height>441</height>
          </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>610</height>
+         </size>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(0, 0, 0);
@@ -4342,8 +3662,8 @@ background-color: rgb(113, 113, 113);</string>
           <rect>
            <x>10</x>
            <y>10</y>
-           <width>471</width>
-           <height>311</height>
+           <width>321</width>
+           <height>421</height>
           </rect>
          </property>
          <property name="styleSheet">
@@ -4354,12 +3674,24 @@ background-color: rgb(113, 113, 113);</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>472</width>
-            <height>311</height>
+            <width>321</width>
+            <height>471</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_45">
+           <property name="spacing">
+            <number>16</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
            <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
             <number>10</number>
            </property>
            <item>
@@ -4486,14 +3818,14 @@ background-color: rgb(113, 113, 113);</string>
             <widget class="QWidget" name="widget_62" native="true">
              <property name="minimumSize">
               <size>
-               <width>470</width>
-               <height>110</height>
+               <width>1</width>
+               <height>300</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
-               <width>400</width>
-               <height>100</height>
+               <width>300</width>
+               <height>300</height>
               </size>
              </property>
              <property name="styleSheet">
@@ -4504,20 +3836,20 @@ background-color: rgb(113, 113, 113);</string>
                <rect>
                 <x>10</x>
                 <y>10</y>
-                <width>440</width>
-                <height>91</height>
+                <width>281</width>
+                <height>231</height>
                </rect>
               </property>
               <property name="minimumSize">
                <size>
-                <width>440</width>
-                <height>0</height>
+                <width>1</width>
+                <height>1</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>440</width>
-                <height>16777215</height>
+                <width>450</width>
+                <height>330</height>
                </size>
               </property>
               <property name="styleSheet">
@@ -4536,10 +3868,10 @@ background-color: rgb(113, 113, 113);</string>
        <widget class="QWidget" name="widget_60" native="true">
         <property name="geometry">
          <rect>
-          <x>510</x>
-          <y>330</y>
-          <width>501</width>
-          <height>301</height>
+          <x>880</x>
+          <y>0</y>
+          <width>421</width>
+          <height>441</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -4551,8 +3883,8 @@ background-color: rgb(113, 113, 113);</string>
           <rect>
            <x>10</x>
            <y>10</y>
-           <width>481</width>
-           <height>281</height>
+           <width>401</width>
+           <height>421</height>
           </rect>
          </property>
          <property name="styleSheet">
@@ -4561,13 +3893,28 @@ background-color: rgb(113, 113, 113);</string>
          <widget class="QWidget" name="verticalLayoutWidget_38">
           <property name="geometry">
            <rect>
-            <x>10</x>
-            <y>10</y>
-            <width>461</width>
-            <height>261</height>
+            <x>0</x>
+            <y>0</y>
+            <width>401</width>
+            <height>472</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_49">
+           <property name="spacing">
+            <number>5</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
+           </property>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_29">
              <property name="spacing">
@@ -4578,7 +3925,13 @@ background-color: rgb(113, 113, 113);</string>
                <property name="minimumSize">
                 <size>
                  <width>180</width>
-                 <height>0</height>
+                 <height>94</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>94</height>
                 </size>
                </property>
                <property name="styleSheet">
@@ -4710,13 +4063,13 @@ background-color: rgb(113, 113, 113);</string>
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>100</height>
+               <height>300</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
                <width>470</width>
-               <height>100</height>
+               <height>300</height>
               </size>
              </property>
              <property name="styleSheet">
@@ -4727,13 +4080,13 @@ background-color: rgb(113, 113, 113);</string>
                <rect>
                 <x>10</x>
                 <y>10</y>
-                <width>440</width>
-                <height>81</height>
+                <width>361</width>
+                <height>231</height>
                </rect>
               </property>
               <property name="minimumSize">
                <size>
-                <width>440</width>
+                <width>1</width>
                 <height>0</height>
                </size>
               </property>
@@ -4759,10 +4112,10 @@ background-color: rgb(113, 113, 113);</string>
        <widget class="QWidget" name="widget_63" native="true">
         <property name="geometry">
          <rect>
-          <x>510</x>
+          <x>360</x>
           <y>0</y>
           <width>501</width>
-          <height>321</height>
+          <height>441</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -4775,7 +4128,7 @@ background-color: rgb(113, 113, 113);</string>
            <x>10</x>
            <y>10</y>
            <width>481</width>
-           <height>301</height>
+           <height>421</height>
           </rect>
          </property>
          <property name="styleSheet">
@@ -4784,15 +4137,27 @@ background-color: rgb(113, 113, 113);</string>
          <widget class="QWidget" name="verticalLayoutWidget_39">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>0</x>
             <y>0</y>
-            <width>461</width>
-            <height>331</height>
+            <width>481</width>
+            <height>469</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_51">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
            <property name="topMargin">
-            <number>0</number>
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>10</number>
            </property>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_30">
@@ -4919,13 +4284,13 @@ background-color: rgb(113, 113, 113);</string>
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>100</height>
+               <height>300</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
                <width>470</width>
-               <height>100</height>
+               <height>300</height>
               </size>
              </property>
              <property name="styleSheet">
@@ -4937,7 +4302,7 @@ background-color: rgb(113, 113, 113);</string>
                 <x>10</x>
                 <y>10</y>
                 <width>440</width>
-                <height>81</height>
+                <height>231</height>
                </rect>
               </property>
               <property name="minimumSize">
