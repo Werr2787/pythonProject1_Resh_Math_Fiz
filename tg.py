@@ -1168,15 +1168,10 @@ class Ui_MainWindow(object):
         self.spinBox_33.setMaximum(1000000000)
         self.spinBox_33.setObjectName("spinBox_33")
         self.verticalLayout_13.addWidget(self.spinBox_33)
-        self.spinBox_34 = QtWidgets.QSpinBox(self.verticalLayoutWidget_28)
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(10)
         font.setItalic(True)
-        self.spinBox_34.setFont(font)
-        self.spinBox_34.setMaximum(1000000000)
-        self.spinBox_34.setObjectName("spinBox_34")
-        self.verticalLayout_13.addWidget(self.spinBox_34)
         self.horizontalLayout_19.addLayout(self.verticalLayout_13)
         self.verticalLayout_34.addLayout(self.horizontalLayout_19)
         self.pushButton_6 = QtWidgets.QPushButton(self.verticalLayoutWidget_28)
@@ -1715,17 +1710,96 @@ class Ui_MainWindow(object):
         self.pushButton_11.clicked.connect(self.Dvich_T)
         self.pushButton_15.clicked.connect(self.Skor)
         self.pushButton.clicked.connect(self.Ep)
+        self.pushButton_2.clicked.connect(self.Epk)
+        self.pushButton_3.clicked.connect(self.Ek)
+        self.pushButton_6.clicked.connect(self.Fmg)
+        self.pushButton_5.clicked.connect(self.Afs)
+        self.pushButton_16.clicked.connect(self.NAt)
 
+    def atv(self):
+        a = self.spinBox_52.value()
+        v = self.spinBox_51.value()
+        v0 = self.spinBox_32.value()
+        t = self.spinBox_42.value()
+        if (a == 0 and v0 > 0 and v > 0 and t > 0):
+            print(
+                f" Нам надо найти а ускорение \n Преобрпзуем формклу а=(v-v0)/t \n Подставляем: а=({v}-{v0})/{t}= {(v - v0) / t} ")
+
+        elif (a > 0 and v0 == 0 and v > 0 and t > 0):
+            print(f" Нам надо найти v0 ускорение \n Преобрпзуем формклу v0=at-v\n Подставляем: а = ({a} * {t}) {t} = {(v - v0) / t}")
+        elif (a == 0 and v0 > 0 and v == 0 and t > 0):
+            print("   ")
+        elif (a == 0 and v0 > 0 and v > 0 and t == 0):
+            print("   ")
+
+        elif (a > 0 and v0 > 0 and v > 0 and t > 0) and ((v - v0) / t == a):
+            print("  Решений не требуется , данные верны")
+
+        else:
+            if (a > 0 and v0 > 0 and v > 0 and t > 0) and ((v - v0) / t != a):
+                print(" Данные не аерны т.к.  ((v-v0)/t неравен a )")
+            else:
+                print("Недостаточно данных")
+
+    def Fmg(self):
+            F = self.spinBox_35.value()
+            m = self.spinBox_33.value()
+            if (F> 0 and m == 0):
+                    self.label_32.setText(f" Нам надо найти m масса \n Преобразуем формулу: m =F/g \n m={F}/10={F / 10} \n Ответ: {F/ 10}")
+            elif (F == 0 and m > 0 ):
+                    self.label_32.setText(f" Нам надо найти F сила \n Преобразуем формулу: F=mg \n F={m}*10={ m* 10} \n Ответ: {m * 10}")
+            elif (F > 0 and m > 0 ) and (m*10== F):
+                    self.label_32.setText(f" Решение не надо т.к. все значения верны ")
+            else:
+                    if (F > 0 and m > 0 ) and (m * 10 != F):
+                            self.label_32.setText(f" Вводные данные не верны т.к. m*g не равен F")
+                    else:
+                            self.label_32.setText("Решения нет , недостаточно ввод данных")
+
+    def NAt(self):
+            A = self.spinBox_59.value()
+            t = self.spinBox_60.value()
+            N = self.spinBox_57.value()
+            if (A > 0 and N > 0 and t == 0):
+                    self.label_49.setText(f" Нам надо найти t время \n Преобразуем формулу: t =A/N \n t={A}/{N}={A / N} \n Ответ: {A / N}")
+            elif (A == 0 and N > 0 and t > 0):
+                    self.label_49.setText(f" Нам надо найти A работа \n Преобразуем формулу: A =N*t \n A={N}*{t}={N*t} \n Ответ: {N*t}")
+            elif (A > 0 and N == 0 and t > 0):
+                    self.label_49.setText(f" Нам надо найти N мощность \n Преобразуем формулу: N=A/t\n N={A} /{t}={A /t } \n Ответ: {A/t}")
+            elif (A> 0 and N > 0 and t > 0) and (N * t == A):
+                    self.label_49.setText(f" Решение не надо т.к. все значения верны ")
+            else:
+                    if (A > 0 and N > 0 and t > 0) and (N * t != A):
+                            self.label_49.setText(f" Вводные данные не верны т.к. A/t не равен N")
+                    else:
+                            self.label_49.setText("Решения нет , недостаточно ввод данных")
+    def Afs(self):
+            A = self.spinBox_37.value()
+            F = self.spinBox_39.value()
+            s = self.spinBox_38.value()
+            if (A > 0 and s > 0 and F == 0):
+                    self.label_31.setText(f" Нам надо найти F сила \n Преобразуем формулу: F =A/S \n F={A}/{s}={A / s} \n Ответ: {A / s}")
+            elif (A == 0 and s > 0 and F > 0):
+                    self.label_31.setText(f" Нам надо найти A работа \n Преобразуем формулу: A =FS \n A={F}*{s}={F*s} \n Ответ: {F*s}")
+            elif (A > 0 and s == 0 and F > 0):
+                    self.label_31.setText(f" Нам надо найти S путь \n Преобразуем формулу: S =A/F\n S={A} /{F}={A /F } \n Ответ: {A/F}")
+            elif (A> 0 and s > 0 and F > 0) and (s * F == A):
+                    self.label_31.setText(f" Решение не надо т.к. все значения верны ")
+            else:
+                    if (A > 0 and s > 0 and F > 0) and (s * F != A):
+                            self.label_31.setText(f" Вводные данные не верны т.к. F*S не равен A")
+                    else:
+                            self.label_31.setText("Решения нет , недостаточно ввод данных")
     def Skor(self):
             t = self.spinBox_31.value()
             s = self.spinBox_16.value()
             v = self.spinBox_21.value()
             if (t > 0 and s > 0 and v == 0):
-                    self.label_48.setText(f" Нам надо найти v скорость \n Преобразуем ылрмулу: v =S/t \n v={s}/{t}={s / t} \n Ответ: {s / t}")
+                    self.label_48.setText(f" Нам надо найти v скорость \n Преобразуем формулу: v =S/t \n v={s}/{t}={s / t} \n Ответ: {s / t}")
             elif (t == 0 and s > 0 and v > 0):
-                    self.label_48.setText(f" Нам надо найти t время \n Преобразуем ылрмулу: t =S/v \n t={s}/{v}={s / v} \n Ответ: {s / v}")
+                    self.label_48.setText(f" Нам надо найти t время \n Преобразуем формулу: t =S/v \n t={s}/{v}={s / v} \n Ответ: {s / v}")
             elif (t > 0 and s == 0 and v > 0):
-                    self.label_48.setText(f" Нам надо найти S путь \n Преобразуем ылрмулу: S =vt \n t={v} *{t}={v * t} \n Ответ: {v * t}")
+                    self.label_48.setText(f" Нам надо найти S путь \n Преобразуем формулу: S =vt \n t={v} *{t}={v * t} \n Ответ: {v * t}")
             elif (t > 0 and s > 0 and v > 0) and (v * t == s):
                     self.label_48.setText(f" Решение не надо т.к. все значения верны ")
             else:
@@ -1734,44 +1808,89 @@ class Ui_MainWindow(object):
                     else:
                             self.label_48.setText("Решения нет , недостаточно ввод данных")
 
-    def Ep(self):
-            t = self.spinBox_31.value()
-            s = self.spinBox_16.value()
-            v = self.spinBox_21.value()
-            if (t > 0 and s > 0 and v == 0):
-                    self.label_48.setText(f" Нам надо найти v скорость \n Преобразуем ылрмулу: v =S/t \n v={s}/{t}={s / t} \n Ответ: {s / t}")
-            elif (t == 0 and s > 0 and v > 0):
-                    self.label_48.setText(f" Нам надо найти t время \n Преобразуем ылрмулу: t =S/v \n t={s}/{v}={s / v} \n Ответ: {s / v}")
-            elif (t > 0 and s == 0 and v > 0):
-                    self.label_48.setText(f" Нам надо найти S путь \n Преобразуем ылрмулу: S =vt \n t={v} *{t}={v * t} \n Ответ: {v * t}")
-            elif (t > 0 and s > 0 and v > 0) and (v * t == s):
-                    self.label_48.setText(f" Решение не надо т.к. все значения верны ")
+    def Epk(self):
+            E = self.spinBox_47.value()
+            k = self.spinBox_48.value()
+            x = self.spinBox_49.value()
+            if (E > 0 and k > 0 and x == 0):
+                    self.label_47.setText(f" Нам надо найти x величина диформации \n Преобразуем формулу: x =корень квадратный (2E/k) \n x=корень квадратный (2{E}/{k})={((E*2)/k)**0.5} \n Ответ: {((E*2)/k)**0.5}")
+            elif (E == 0 and k > 0 and x > 0):
+                    self.label_47.setText(f" Нам надо найти E энергию \n Преобразуем формулу: E =kx^2/2 \n E={k}*{x}^2/2={(k*(x**2))/2} \n Ответ: {(k*(x**2))/2}")
+            elif (E > 0 and k == 0 and x > 0):
+                    self.label_47.setText(f" Нам надо найти k жесткость пружины \n Преобразуем формулу: k =2E/x^2 \n k={E}*2/{x}^2={(E*2)/(x**2)} \n Ответ: {(E*2)/(x**2)}")
+            elif (E > 0 and k > 0 and x > 0) and ((E*2)/(x**2) == k):
+                    self.label_47.setText(f" Решение не надо т.к. все значения верны ")
             else:
-                    if (t > 0 and s > 0 and v > 0) and (v * t != s):
-                            self.label_48.setText(f" Вводные данные не верны т.к. v*t не равен S")
+                    if (E > 0 and k > 0 and x > 0) and ((E*2)/(x**2) != k):
+                            self.label_47.setText(f" Вводные данные не верны т.к. kx^2/2 не равен E")
                     else:
-                            self.label_48.setText("Решения нет , недостаточно ввод данных")
+                            self.label_47.setText("Решения нет , недостаточно ввод данных")
+    def Ek(self):
+            E = self.spinBox_45.value()
+            m = self.spinBox_44.value()
+            v = self.spinBox_43.value()
+            if (E > 0 and m > 0 and v == 0):
+                    self.label_46.setText(f" Нам надо найти v скорость \n Преобразуем формулу: v =корень квадратный (2E/m) \n v=корень квадратный (2{E}/{m})={((E*2)/m)**0.5} \n Ответ: {((E*2)/m)**0.5}")
+            elif (E == 0 and m > 0 and v > 0):
+                    self.label_46.setText(f" Нам надо найти E энергию \n Преобразуем формулу: E =mv^2/2 \n E={m}*{v}^2/2={(m*(v**2))/2} \n Ответ: {(m*(v**2))/2}")
+            elif (E > 0 and m == 0 and v > 0):
+                    self.label_46.setText(f" Нам надо найти m массу \n Преобразуем формулу: m =2E/v^2 \n m={E}*2/{v}^2={(E*2)/(v**2)} \n Ответ: {(E*2)/(v**2)}")
+            elif (E > 0 and m > 0 and v > 0) and ((E*2)/(v**2) == m):
+                    self.label_46.setText(f" Решение не надо т.к. все значения верны ")
+            else:
+                    if (E > 0 and m > 0 and v > 0) and ((E*2)/(v**2) != m):
+                            self.label_46.setText(f" Вводные данные не верны т.к. mv^2/2 не равен E")
+                    else:
+                            self.label_46.setText("Решения нет , недостаточно ввод данных")
+
+    def Ep(self):
+            E = self.spinBox_41.value()
+            m = self.spinBox_40.value()
+            h = self.spinBox_61.value()
+            if (E > 0 and m > 0 and h == 0):
+                    self.label_35.setText(f" Нам надо найти h высоту \n Преобразуем формулу: h =E/mg \n h={E}/10*{m}={E/(m*10)} \n Ответ: {E/(m*10)}")
+            elif (E == 0 and m > 0 and h > 0):
+                    self.label_35.setText(f" Нам надо найти E энергию \n Преобразуем формулу: E =mgh \n E={m}*10*{h}={10*m*h} \n Ответ: {10*m*h}")
+            elif (E > 0 and m == 0 and h > 0):
+                    self.label_35.setText(f" Нам надо найти m масса \n Преобразуем формулу: m =E/gh \n m={E}/10*{h}={E/(h*10)} \n Ответ: {E/(h*10)}")
+            elif (E > 0 and m > 0 and h > 0) and (E/(m*10) == h):
+                    self.label_35.setText(f" Решение не надо т.к. все значения верны ")
+            else:
+                    if (E > 0 and m > 0 and h > 0) and (E/(m*10)!=h):
+                            self.label_35.setText(f" Вводные данные не верны т.к. v*t не равен S")
+                    else:
+                            self.label_35.setText("Решения нет , недостаточно ввод данных")
     def Dvich_T(self):
-        print("Tw")
         w = self.spinBox_13.value()
         T = self.spinBox_12.value()
         n = self.spinBox_14.value()
-        if (w==0 and T>0 and n>0  ):
-                self.label_20.setText(f'Решение: \n Надо найти w по формуле w=2п/T=2пn \nПолучаем: w=2п/{T}=2п{n}={(2*3.14/T)}')
-        elif (w==0 and T>0 and n==0  ):
-                self.label_20.setText(f'Решение: \n Надо найти w и n по формуле w=2п/T n=1/T \nПолучаем: w=2п/{T}={(2*3.14/T)}\nn=1/{T}={1/T}')
-        elif (w==0 and T==0 and n>0  ):
-                self.label_20.setText(f'Решение: \n Надо найти w и T по формуле w=2пn T=1/n \nПолучаем: w=2п*{n}={(2*3.14*n)}\nT=1*{n}={1*n}')
+        if (w == 0 and T > 0 and n > 0)and (round((1/ T)) == n):
+                self.label_20.setText(
+                        f'Решение: \n Надо найти w по формуле w=2п/T=2пn \nПолучаем: w=2*3.14/{T}=2*3.14*{n}={(2 * 3.14 / T)}')
+        elif (w == 0 and T > 0 and n == 0):
+                self.label_20.setText(
+                        f'Решение: \n Надо найти w и n по формуле w=2п/T; n=1/T \nПолучаем: w=2*3.14/{T}={(2 * 3.14 / T)}\nn=1/{T}={1 / T}')
+        elif (w == 0 and T == 0 and n > 0):
+                self.label_20.setText(
+                        f'Решение: \n Надо найти w и T по формуле w=2пn; T=1/n \nПолучаем: w=2*3.14*{n}={(2 * 3.14 * n)}\nT=1/{n}={1 * n}')
 
-        elif (w > 0 and T == 0 and n > 0):
+
+        elif (w > 0 and T == 0 and n > 0)and (round((2 * 3.14 * n)) == w):
                 self.label_20.setText(
-                        f'Решение: \n Надо найти w по формуле w=2п/T=2пn \nПолучаем: w=2п/{T}=2п{n}={(2 * 3.14 / T)}')
-        elif (w == 0 and T > 0 and n == 0):
+                        f'Решение: \n Надо найти T по формуле T=2п/w=1/n \nПолучаем: T=2*3.14/{w}=1/{n}={(2 * 3.14 / w)}')
+        elif (w > 0 and T > 0 and n == 0)and (round((2 * 3.14 / T)) == w):
                 self.label_20.setText(
-                        f'Решение: \n Надо найти w и n по формуле w=2п/T n=1/T \nПолучаем: w=2п/{T}={(2 * 3.14 / T)}\nn=1/{T}={1 / T}')
-        elif (w == 0 and T > 0 and n == 0):
+                        f'Решение: \n Надо найти n по формуле n=w/2п  n=1/T \nПолучаем:n={w}/2п =1/{T}={(w / 2 * 3.14)}\nn=1/{T}={1 / T}')
+        elif (w > 0 and T == 0 and n == 0):
                 self.label_20.setText(
-                        f'Решение: \n Надо найти w и n по формуле w=2п/T n=1/T \nПолучаем: w=2п/{T}={(2 * 3.14 / T)}\nn=1/{T}={1 / T}')
+                        f'Решение: \n Надо найти T и n по формуле T=2п/w n=w/2п \nПолучаем: T=2п/{w}={(2 * 3.14 / w)}\nn={w}/2*3.14={w / (2 * 3.14)}')
+        elif (w > 0 and T > 0 and n > 0) and ((2 * 3.14 / T) == w):
+                self.label_20.setText('Решений не надо все значения верны')
+        else:
+                if (w > 0 and T > 0 and n > 0) and ((2 * 3.14 / T) != w):
+                        self.label_20.setText('Ввод чисел неаерный , т.к. 2п/ T не равен w')
+                else:
+                        self.label_20.setText('Решений нет доподните ввод чисел ')
 
 
     def Dvich_Fr(self):
@@ -1905,18 +2024,17 @@ class Ui_MainWindow(object):
             self.spinBox_40.setSpecialValueText(_translate("MainWindow", "m"))
             self.spinBox_61.setSpecialValueText(_translate("MainWindow", "h"))
             self.pushButton.setText(_translate("MainWindow", "Ответ"))
-            self.spinBox_45.setSpecialValueText(_translate("MainWindow", "V"))
-            self.spinBox_44.setSpecialValueText(_translate("MainWindow", "t"))
-            self.spinBox_43.setSpecialValueText(_translate("MainWindow", "V0"))
+            self.spinBox_45.setSpecialValueText(_translate("MainWindow", "E"))
+            self.spinBox_44.setSpecialValueText(_translate("MainWindow", "m"))
+            self.spinBox_43.setSpecialValueText(_translate("MainWindow", "v"))
             self.pushButton_3.setText(_translate("MainWindow", "Ответ"))
-            self.spinBox_47.setSpecialValueText(_translate("MainWindow", "V0"))
-            self.spinBox_48.setSpecialValueText(_translate("MainWindow", "t"))
-            self.spinBox_49.setSpecialValueText(_translate("MainWindow", "V"))
+            self.spinBox_47.setSpecialValueText(_translate("MainWindow", "E"))
+            self.spinBox_48.setSpecialValueText(_translate("MainWindow", "k"))
+            self.spinBox_49.setSpecialValueText(_translate("MainWindow", "x"))
             self.pushButton_2.setText(_translate("MainWindow", "Ответ"))
             self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), _translate("MainWindow", "Энергия"))
             self.spinBox_35.setSpecialValueText(_translate("MainWindow", "F"))
             self.spinBox_33.setSpecialValueText(_translate("MainWindow", "m"))
-            self.spinBox_34.setSpecialValueText(_translate("MainWindow", "g"))
             self.pushButton_6.setText(_translate("MainWindow", "Ответ"))
             self.spinBox_37.setSpecialValueText(_translate("MainWindow", "A"))
             self.spinBox_39.setSpecialValueText(_translate("MainWindow", "F"))
