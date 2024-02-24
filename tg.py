@@ -274,6 +274,7 @@ class Ui_MainWindow(object):
         self.label_55.setMaximumSize(QtCore.QSize(360, 230))
         self.label_55.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.label_55.setText("")
+
         self.label_55.setObjectName("label_55")
         self.verticalLayout_48.addWidget(self.widget_76)
         self.tabWidget_3.addTab(self.tab_10, "")
@@ -1715,6 +1716,76 @@ class Ui_MainWindow(object):
         self.pushButton_6.clicked.connect(self.Fmg)
         self.pushButton_5.clicked.connect(self.Afs)
         self.pushButton_16.clicked.connect(self.NAt)
+        self.pushButton_17.clicked.connect(self.atv)
+        self.pushButton_21.clicked.connect(self.svta)
+        self.pushButton_20.clicked.connect(self.xvt)
+
+        #math
+        self.pushButton_19.clicked.connect(self.log_zd)
+
+
+
+
+
+
+
+    def log_zd(self):
+        self.label_55.setPixmap(QtGui.QPixmap("D:/Downloads/Снимок экрана 2024-02-14 210450.png"))
+    def log_zd(self):
+        self.label_55.setText(("Среди чисел 1 , 2 , 3 , . . . , 22 всего 11 четных и 11 нечетных, то есть нечетных чисел нечетное количество, поэтому как бы мы ни поставили знаки в результате всегда получится нечетное число. А так как 0 – четное число, то так расставить знаки нельзя. Ответ: Нет"))
+    def xvt(self):
+        x = self.spinBox_2.value()
+        x0 = self.spinBox.value()
+        v = self.spinBox_5.value()
+        a = self.spinBox_58.value()
+        t = self.spinBox_4.value()
+        if (a > 0 and x == 0 and v > 0 and t > 0 and x0>0):
+                self.label_36.setText(
+                        f" Нам надо найти x путь \n Преобрпзуем формклу x=x0+v0t+(at^2)/2 \n Подставляем: x=x0+{v}*{t}+({a}*{t}^2)/2= {x0+v * t + ((a * (t ** 2)) / 2)} ")
+        elif (a == 0 and x > 0 and v > 0 and t > 0 and x0>0):
+                self.label_36.setText(
+                        f" Нам надо найти a начальную скорость  \n Преобрпзуем формклу a=2(x-(x0+v0t)/t^2\n Подставляем: a = 2({x} -({x0}+{v}*{t})/{t}^2 = {(2*(x -(x0+v*t)))/(t**2)}")
+        elif (a > 0 and x > 0 and v == 0 and t > 0 and x0>0):
+                self.label_36.setText(
+                        f" Нам надо найти v0 скорость \n Преобрпзуем формклу v0=(x-x0-((at^2)/2))/t\n Подставляем: v0 = ({x}-{x0}-(({a} * {t}^2)/2))/{t} = {(x-x0-((a * t**2)/2))/t} ")
+        elif (a > 0 and x > 0 and v > 0 and t == 0 and x0>0):
+                self.label_36.setText(
+                        f"Недостаточно данных")
+        elif (a > 0 and x > 0 and v > 0 and t > 0 and x0==0):
+                self.label_36.setText(
+                        f" Нам надо найти x0 путь \n Преобрпзуем формклу x0=x-(v0t+(at^2)/2) \n Подставляем: x0=x-({v}*{t}+({a}*{t}^2)/2)= { x-(v * t + ( (a * (t ** 2)) / 2)) }")
+        elif (a > 0 and x > 0 and v > 0 and t > 0 and x0>0) and ((x0+v * t + ((a * (t ** 2)) / 2)) == x):
+                self.label_36.setText("  Решений не требуется , данные верны")
+        else:
+                if (a > 0 and x > 0 and v > 0 and t > 0 and x0>0) and ((x0+v * t + ((a * (t ** 2)) / 2)) != x):
+                        self.label_36.setText(" Данные не аерны т.к.  v0*t +((a*(t^2))/2) неравен S )")
+                else:
+                        self.label_36.setText(f"Недостаточно данных")
+    def svta(self):
+        a = self.spinBox_53.value()
+        v = self.spinBox_55.value()
+        s = self.spinBox_56.value()
+        t = self.spinBox_54.value()
+        if (a>0 and s == 0 and v > 0 and t > 0):
+                self.label_42.setText(
+                        f" Нам надо найти S путь \n Преобрпзуем формклу S=v0t+(at^2)/2 \n Подставляем: а={v}*{t}+({a}*{t}^2)/2= {v*t +((a*(t**2))/2)} ")
+        elif (a == 0 and s > 0 and v > 0 and t > 0):
+                self.label_42.setText(
+                        f" Нам надо найти a начальную скорость  \n Преобрпзуем формклу a=2(S-v0t)/t^2\n Подставляем: a = 2({s} - {v}*{t})/{t}^2 = {2*(s-v*t)/(t**2)}")
+        elif (a > 0 and s > 0 and v == 0 and t > 0):
+                self.label_42.setText(
+                        f" Нам надо найти v0 скорость \n Преобрпзуем формклу v0=S-((at^2)/2)\n Подставляем: v0 = {s}-(({a} * {t}^2)/2) = {s-((a * (t**2))/2)} ")
+        elif (a > 0 and s > 0 and v > 0 and t == 0):
+                self.label_42.setText(
+                        f"Недостаточно данных")
+
+        elif (a > 0 and s > 0 and v > 0 and t > 0) and (v*t +((a*(t**2))/2) == s):
+                self.label_42.setText("  Решений не требуется , данные верны")
+        else:
+                if (a > 0 and s > 0 and v > 0 and t > 0) and (v*t +((a*(t**2))/2) != s):
+                        self.label_42.setText(" Данные не аерны т.к.  v0*t +((a*(t^2))/2) неравен S )")
+                else:
+                        self.label_42.setText(f"Недостаточно данных")
 
     def atv(self):
         a = self.spinBox_52.value()
@@ -1722,24 +1793,24 @@ class Ui_MainWindow(object):
         v0 = self.spinBox_32.value()
         t = self.spinBox_42.value()
         if (a == 0 and v0 > 0 and v > 0 and t > 0):
-            print(
+            self.label_24.setText(
                 f" Нам надо найти а ускорение \n Преобрпзуем формклу а=(v-v0)/t \n Подставляем: а=({v}-{v0})/{t}= {(v - v0) / t} ")
-
         elif (a > 0 and v0 == 0 and v > 0 and t > 0):
-            print(f" Нам надо найти v0 ускорение \n Преобрпзуем формклу v0=at-v\n Подставляем: а = ({a} * {t}) {t} = {(v - v0) / t}")
-        elif (a == 0 and v0 > 0 and v == 0 and t > 0):
-            print("   ")
-        elif (a == 0 and v0 > 0 and v > 0 and t == 0):
-            print("   ")
+            self.label_24.setText(f" Нам надо найти v0 начальную скорость  \n Преобрпзуем формклу v0=v-at\n Подставляем: v0 = {v}-({a} * {t}) = { v - a * t }")
+        elif (a > 0 and v0 > 0 and v == 0 and t > 0):
+                self.label_24.setText(
+                        f" Нам надо найти v конечную скорость \n Преобрпзуем формклу v=v0+at\n Подставляем: v = {v0}+{a} * {t} = { v0 + a * t } ")
+        elif (a > 0 and v0 > 0 and v > 0 and t == 0):
+            self.label_24.setText(
+                f" Нам надо найти t время \n Преобрпзуем формклу t=(v-v0)/a \n Подставляем: t=({v}-{v0})/{a}= {(v - v0) / a} ")
 
         elif (a > 0 and v0 > 0 and v > 0 and t > 0) and ((v - v0) / t == a):
-            print("  Решений не требуется , данные верны")
-
+            self.label_24.setText("  Решений не требуется , данные верны")
         else:
             if (a > 0 and v0 > 0 and v > 0 and t > 0) and ((v - v0) / t != a):
-                print(" Данные не аерны т.к.  ((v-v0)/t неравен a )")
+                self.label_24.setText(" Данные не аерны т.к.  ((v-v0)/t неравен a )")
             else:
-                print("Недостаточно данных")
+                self.label_24.setText("Недостаточно данных")
 
     def Fmg(self):
             F = self.spinBox_35.value()
@@ -1953,6 +2024,9 @@ class Ui_MainWindow(object):
 
                 else:
                     self.label_51.setText(f'Решения нет, введите значения')
+
+
+
 
     def retranslateUi(self, MainWindow):
             _translate = QtCore.QCoreApplication.translate
